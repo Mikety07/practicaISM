@@ -1,9 +1,8 @@
 function cargarCasas() {
-    // Usamos sessionStorage en lugar de localStorage
     var casas = JSON.parse(sessionStorage.getItem('casas')) || [];
     var gridContainer = document.querySelector('.grid-container');
   
-    gridContainer.innerHTML = ''; // Limpia el contenedor anterior
+    gridContainer.innerHTML = '';
   
     casas.forEach(function(nombre) {
       var div = document.createElement('div');
