@@ -9,7 +9,7 @@ body {
     text-align: center; 
 }
 
-.grid-container { 
+.casas-container { 
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     gap: 10px; 
